@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8483444395108679676}
   - component: {fileID: 3019448762496813902}
   - component: {fileID: 8572383467000573093}
+  - component: {fileID: 6493969688979204986}
   m_Layer: 8
   m_Name: ExplosiveEnemy
   m_TagString: Untagged
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -203,3 +204,24 @@ MonoBehaviour:
   blinkDuration: 0.1
   blinkColor: {r: 1, g: 1, b: 1, a: 1}
   deathParticlesPrefab: {fileID: 2112302428384132502, guid: 2b75fd59667614b42a9955fc04e765b8, type: 3}
+--- !u!95 &6493969688979204986
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639277738559751431}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 20b93c30c2cdb38489d79e33b443da38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
